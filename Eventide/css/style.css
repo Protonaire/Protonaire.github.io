@@ -1,0 +1,560 @@
+/* Спецификации */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    font-family: "Montserrat-Regular";
+    color: #fff !important;
+    font-size: 17px;
+    background: #7ea4e8;
+    text-transform: uppercase;
+    padding: 10px 40px;
+}
+
+h1 {
+    font-family: "Montserrat-Bold";
+    font-size: 31px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: "Montserrat-Regular";
+    font-size: 30px;
+    color: #6a7079;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #777a7d;
+    font-size: 20px;
+    font-family: "Ubuntu-Medium";
+}
+
+p {
+    font-family: "Ubuntu-Regular";
+}
+
+/* header start */
+
+.header {
+    background: url(../img/header_bg.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 18%;
+    color: #fff !important;
+}
+
+.welcome img {
+    margin-bottom: 28px;
+}
+
+.welcome p {
+    line-height: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.welcome .discover {
+    background: #6a7079;
+    margin-left: 30px;
+}
+
+/* header end */
+
+/* event section start */
+.event {
+    padding-top: 110px;
+    border-bottom: 3px solid #f0f0f1;
+}
+
+.event p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;
+    margin-top: 30px;
+}
+
+.event .goals {
+    padding-right: 90px;
+}
+
+.event h2 {
+    margin-bottom: 20px;
+}
+
+.event span {
+    font-size: 22px;
+    color: #828689;
+}
+
+.event .tab-event {
+    border: 2px solid #ececec;
+    padding: 0;
+    border-radius: 0.40rem;
+}
+
+.event ul {
+    display: flex;
+}
+
+.event .nav .nav-item {
+    flex-grow: 1;
+}
+
+.event .nav .nav-item .nav-link {
+    text-transform: uppercase;
+    color: #9097a1 !important;
+    font-family: "Ubuntu-Bold";
+    font-size: 18px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 0;
+    padding: 0;
+   
+}
+.event .nav .nav-item .nav-link .active {
+    text-transform: uppercase;
+    color: #abb1ba !important;
+    
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background: #ececec !important;
+}
+
+.event .tab-content .tab-pane {
+    padding-right: 50px;
+    padding-left: 22px;
+}
+
+.event .tab-content p {
+    font-size: 17px;
+    color: #999999;
+}
+
+
+.event .tab-content .tab-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event .tab-content .tab-box img {
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.event .speakers h2 {
+    margin-bottom: 0;
+    color: #6a7079;
+}
+
+.event .speakers {
+    margin-top: 100px;
+}
+
+.event .speakers p {
+    margin: 0;
+    font-size: 22px;
+    color: #828689;
+}
+
+.event .avatar {
+    border-radius: 50%;
+    background: url(../img/lucy.jpg);
+    height: 140px;
+    width: 140px;
+    position: relative;
+}
+
+.event .lucy:nth-child(even) .avatar {
+    background: url(../img/jobs.jpg);
+}
+
+.event .photos h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.event .photos p {
+    margin: 0;
+    padding: 0;
+}
+
+.event .photos {
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+
+
+
+.event .photos .fa {
+    position: absolute;
+    color: #fff;
+    font-size: 70px;
+    top: 35px;
+    left: 38px;
+    opacity: 0;
+}
+
+.event .lucy {
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.event .lucy:hover .avatar,
+.lucy:hover .fa {
+    background: #6bd8d3;
+    opacity: 1;
+}
+
+.event .lucy:hover h3 {
+    color: #2cc7c1;
+}
+
+.undp {
+    padding-bottom: 80px;
+}
+
+.shedule .btn {
+    background: #fff !important;
+    color: #747a84 !important;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.shedule .card {
+    border: none;
+}
+
+.shedule .card-header {
+    background: #fff;
+    border-bottom: none;
+   
+}
+
+.shedule .time {
+    background: #2cc7c1;    
+    color: #ffffff;
+    font-family: "Ubuntu-Medium";
+    font-size: 17px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.shedule .card-header {
+    background: url(../img/min.png) no-repeat;
+    background-position: right center;
+}
+
+.shedule .card-header:hover {
+    background: url(../img/plus.png) no-repeat;
+    background-position: right center;  
+}
+
+.shedule .card {
+    margin-top: 30px;
+}
+
+.shedule {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.acord {
+    padding-bottom: 120px;
+}
+
+.video .goals {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.video {
+    padding-bottom: 120px;
+}
+
+.gallery .carousel {
+    margin-top: 30px;
+    position: relative;
+}
+
+.gallery .carousel .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #65d2ce;
+}
+
+.gallery .carousel .carousel-indicators {
+    display: flex;
+    width: 100px;
+    margin: 0;
+}
+
+.carousel-indicators .active {
+    background: #65d2ce;
+}
+
+.cost {
+    background: #f3f3f3;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.form {
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    padding-left: 40px;
+}
+
+.form .name {
+    background: url(../img/plus.png) no-repeat;
+    background-position: right center;
+}
+
+.form .email {
+    background: #efefef;
+}
+
+.form input, select {
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: 1px solid #95e3e0;
+}
+
+.sponsors {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background: #fff;
+}
+
+.map {
+    background: url(../img/map.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 673px;
+    position: relative;
+}
+
+.map .tap {
+    position: absolute;
+    right: 520px;
+    top: 260px;
+}
+
+.footer {
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background: #525b64;
+}
+
+.footer span {
+    font-family: "Ubuntu-Regular";
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer p {
+    font-family: "Ubuntu-Regular";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer .help {
+    font-size: 14px;
+}
+
+.footer img {
+    margin-top: 7px;
+}
+
+.footer span:nth-child(2),
+.footer span:nth-child(3){
+    font-size: 20px;
+}
+
+.copyright {
+    padding-top: 10px;
+    background: #3f464c;
+    padding-bottom: 10px;
+    color: #cacaca;
+}
+
+.copyright p {
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 350px) {
+    .welcome p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .event .speakers p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sponsors .tt {
+        margin: auto !important;
+    }
+}
+
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 20px;
+    }
+    .welcome p {
+        font-size: 12px;
+    }
+    .welcome .btn {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .event {
+        text-align: center;
+    }
+    
+    .event .goals {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .video .o-2 {
+        order: 2;
+    }
+    .video .o-1 {
+        order: 1;
+    }
+    .shedule {
+        padding-top: 40px;
+    }
+    .acord {
+        padding-bottom: 40px;
+    }
+    .video {
+        padding-bottom: 40px;
+    }
+    .cost h2 {
+        font-size: 20px !important;
+    }
+    .cost p {
+        font-size: 12px !important;
+    }
+    .map {
+        height: 400px !important;
+    }
+    .footer .row {
+        margin: auto !important;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    .welcome {
+        top: 10%;
+    }
+    .event .nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .event .goals {
+        padding-right: 20px;
+    }
+    .event h2 {
+        font-size: 20px;
+    }
+    .event span {
+        font-size: 16px;
+    }
+    .event p {
+        font-size: 13px;
+    }
+    .shedule .btn {
+        font-size: 12px;
+    }
+    .shedule .card-header {
+        background: none;
+    }
+    
+    .shedule .card-header:hover {
+        background: none;
+    }
+    .shedule .card-body {
+        font-size: 10px;
+    }
+    .form input, select {
+        margin-bottom: 10px !important;
+    }
+    .form .btn {
+        margin-top: 10px !important;
+    }
+    .cost h2 {
+        font-size: 25px;
+    }
+    .sponsors img {
+        width: 100% !important;
+        
+    }
+    .map {
+        height: 500px;
+    }
+    .footer span {
+        font-size: 20px;
+    }
+    .footer p, .footer .help {
+        font-size: 13px;
+    }
+    .get {
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .event .goals {
+        padding-right: 20px;
+    }
+    .shedule .card-header {
+        background: url(../img/min.png) no-repeat;
+        background-position: right 10px;
+    }
+    
+    .shedule .card-header:hover {
+        background: url(../img/plus.png) no-repeat;
+        background-position: right 10px;  
+    }
+    .form {
+        padding-left: 20px;
+    }
+    .form input, select {
+        width: 150px;
+    }
+}

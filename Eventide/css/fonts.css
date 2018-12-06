@@ -1,0 +1,30 @@
+
+/* Montserrat-Regular */
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../Font/montserrat/Montserrat-Regular.otf);
+}
+
+/* Montserrat-Bold */
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../Font/montserrat/Montserrat-Bold.otf);
+}
+
+/* Ubuntu-Regular */
+@font-face {
+    font-family: "Ubuntu-Regular";
+    src: url(../Font/ubuntu/Ubuntu-R.ttf);
+}
+
+/* Ubuntu-Bold */
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url(../Font/ubuntu/Ubuntu-B.ttf);
+}
+
+/* Ubuntu-Medium */
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url(../Font/ubuntu/Ubuntu-M.ttf);
+}
