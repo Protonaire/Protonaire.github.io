@@ -1,0 +1,607 @@
+body {
+	font-weight: 300;
+	font-size: 16px;
+	color: #707070;
+	font-family: "Oswald";
+}
+
+.header {
+	background: url(../img/howwedobg.jpg) center center;
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+
+h4 {
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 30px;
+	color: black;
+	text-transform: uppercase;
+}
+
+h5 {
+	color: #515151;
+	text-transform: uppercase;
+}
+
+hr {
+	width: 170px;
+	height: 3px;
+	background: #ffe600;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.menu-top {
+	background: rgba(19, 19, 22, .3);
+	padding-top: 16px;
+	padding-bottom: 20px;
+}
+
+.menu-top .nav-link {
+	text-transform: uppercase;
+	color: #ffffff !important;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.menu-top .nav-link::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 0;
+	background: #ffe600;
+	transition: 1s;
+	margin: auto;
+}
+
+.menu-top .nav-link:hover::after {
+	width: 100%;	
+}
+
+.menu-top .nav-link:hover {
+	color: #ffe600 !important;
+}
+
+.menu-top .nav-item {
+	list-style-type: square;
+	color: #ffe600;
+	margin: 0 12px;
+}
+
+.menu-top .nav-item:first-child {
+	list-style: none;
+}
+
+.title {
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.title h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 65px;
+	font-weight: 700;
+}
+
+.title .btn {
+	background: #ffe600;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	border-radius: 0;
+	padding: 12px 50px;
+}
+
+.services {
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+
+.services .circle {
+	width: 105px;
+	height: 105px;
+	background: #ffe600;
+	color: #fff;
+	border-radius: 50%;
+	margin: auto;
+	border: 1px solid transparent;
+}
+
+.services .circle .fa {
+	font-size: 40px;
+	line-height: 105px;
+}
+
+.services .circle:hover {
+	background: #ffffff;
+	border: 1px solid #000;
+	color: #ffe600;
+}
+
+.doit {
+	background: url(../img/howwedobg.jpg) center center;
+	background-size: cover;
+	padding-top: 65px;
+	padding-bottom: 90px;
+	color: #fff;
+	background-attachment: fixed;
+}
+
+.doit h2 {
+	color: #ffe600;
+}
+
+.doit img {
+	margin-bottom: 30px;
+}
+
+.doit .row:nth-child(2) {
+	margin-top: 60px;
+}
+
+.doit h4 { 
+	margin-bottom: 20px;
+}
+
+.works {
+	padding: 70px 0;
+}
+
+.works .nav .nav-link {
+	text-transform: uppercase;
+	font-family: "Oswald";
+	font-size: 16px;
+	color: #515151;
+	font-weight: 400;
+}
+
+.works h3 {
+	font-size: 25px;
+	color: #515151;
+	font-weight: 400;
+	font-family: "Oswald";
+	padding-left: 6px;
+}
+
+.works .nav {
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.works .nav-link::after {
+	content: "";
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background: #ffe600;
+	transform: translate(15px,-5px);
+}
+
+.works .nav-link.zxc::after {
+	content: "";
+	display: none;
+}
+
+.works .nav-link.active {
+	color: #ffe600;
+}
+
+.doyolike {
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.flip {
+	background: #ffe600;
+	width: 60px;
+	height: 60px;
+	margin-bottom: 20px !important;
+	margin-top: 20px !important;
+}
+
+.flip .fa {
+	font-size: 30px !important;
+	color: #fff;
+}
+
+.doyolike .btn {
+	text-transform: uppercase;
+	background: #ffe600;
+	color: #fff !important;
+	font-size: 15px;
+	font-family: "Oswald";
+	font-weight: 700;
+	padding: 23px 47px;
+	margin-top: 50px;
+}
+
+.proud {
+	color: #fff;
+	background: #131a1d;
+	padding: 65px 0;
+}
+
+.proud h2 {
+	color: #fff;
+}
+
+.proud .calcu {
+	width: 270px;
+	height: 140px;
+	border: 1px solid yellow;
+	padding-top: 20px;
+	margin-top: 20px !important;
+	margin: auto;
+}
+
+.proud span {
+	display: block;
+	text-align: center;
+}
+
+.proud .numb {
+	font-weight: 700;
+	font-family: "Oswald";
+	font-size: 40px;
+}
+
+.proud .name-numb {
+	text-transform: uppercase;
+	font-family: "Oswald";
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffe600;
+} 
+
+.box-calc {
+	margin-top: 40px;
+}
+
+.about {
+	padding-top: 65px;
+	padding-bottom: 130px;
+	
+}
+
+.about .about-box {
+	margin-top: 30px;
+}
+
+.about .about-img {
+	width: 150px;
+	height: 70px;
+	border-radius: 50%;
+	background: #ffe600;
+}
+
+.about .about-box span {
+	font-family: "Oswald";
+	font-size: 16px;
+	font-weight: 400;
+	color: #515151;
+	text-transform: uppercase;
+}
+
+.about .about-box .fa {
+	font-size: 50px;
+	color: #fff;
+}
+
+.about .about-box p {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.about-box-text {
+	margin-left: 25px;
+}
+
+.team {
+	background: #fbfbfb;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.team ul .nav-item {
+	width: 200px;
+	background: #fff;
+	border-bottom: 1px solid #707070;
+}
+
+.team ul .nav-item .nav-link {
+	padding: 0;
+	text-decoration: none;
+	
+}
+
+
+
+.team ul .nav-item .nav-link img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.team ul .nav-item .nav-link span {
+	display: block;
+}
+
+.team ul .nav-item .nav-link .name {
+	font-size: 20px;
+	font-family: "Oswald";
+	font-weight: 400;
+	color: #ffe600;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.team ul .nav-item .nav-link .proffesion {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Oswald";
+	color: #707070;
+	text-transform: uppercase;
+}
+
+.team .nav .nav-item {
+	max-width: 0 5px;
+}
+
+.under-tab {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #131316;
+	color: #fff;
+}
+
+.under-tab .name {
+	font-size: 20px;
+	font-family: "Oswald";
+	font-weight: 400;
+	color: #ffe600;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.under-tab .fa {
+	color: #fff;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+.locate {
+	margin-top: 30px;
+}
+
+.skills {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #fff;
+	background: #131a1d;
+}
+
+.skills h2 {
+	color: #fff;
+}
+
+.skill-box {
+	color: #ffe600;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.skill-box .skill {
+	font-size: 35px;
+	font-weight: 300;
+	text-transform: uppercase;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	width: 130px;
+	height: 130px;
+	line-height: 120px;
+}
+
+.name-box {
+	margin-top: 10px;
+	display: block;
+}
+
+.clients {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.client-logo {
+	margin-top: 50px;
+}
+
+.citat {
+	background: #131a1d;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.carousel .carousel-item {
+	height: 190px;
+}
+
+.carousel-indicators {
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	left: 205px;
+}
+
+.carousel-indicators li {
+	width: 8px;
+	height: 8px;
+	background: #fff;
+}
+
+.carousel-indicators .active {
+	background: #ffe600;
+}
+
+.carousel .carousel-item p {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.carousel .carousel-caption {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	left: 155px;
+}
+
+.contact {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.we {
+	margin-top: 30px;
+}
+
+.we img,span,p {
+	display: block;
+}
+
+.we span {
+	font-weight: 400;
+	font-size: 20px;
+	color: #000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.message {
+	color: #fff;
+	background: #131a1d;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.message h2 {
+	color: #fff;
+}
+
+.send-m {
+	background: transparent;
+	border: 0.3px solid #fff;
+	width: 300px;
+	padding: 15px 21px;
+	color: #fff;
+}
+
+.form-send {
+	margin-top: 30px;
+}
+
+.form-send textarea {
+	margin-top: 30px;
+	width: 96%;
+	background: transparent;
+	padding-left: 21px;
+	padding-top: 21px;
+	color: #fff;
+}
+
+.form-send .btn {
+	text-transform: uppercase !important;
+	margin-top: 20px;
+	border-radius: 2px;
+	padding: 20px 57px;
+	background: #ffe600;
+	font-weight: 700;
+}
+
+.footer {
+	padding-top: 20px;
+	background: #131316;
+	color: #fff;
+}
+
+.footer .fa {
+	font-size: 30px;
+	margin-right: 15px;
+}
+
+.footer .anchor {
+	margin-top: 30px;
+}
+
+.works .btn {
+	background: rgb(255, 230, 0);
+	padding: 10px 30px;
+}
+
+.team .nav .nav-item {
+	margin-top: 20px;
+}
+
+.client-logo div {
+	margin-top: 20px !important;
+}
+
+@media (max-width: 991px) {
+	.menu-top .nav-item:first-child {
+		list-style-type: square;
+	}
+	.about .about-box .fa {
+		font-size: 90px !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.title h1 {
+		font-size: 45px;
+
+	}
+	
+	.title .btn {
+		font-size: 15px;
+		padding: 10px 35px;
+	}
+	.menu-top {
+		padding-bottom: 5px;
+		padding-top: 0px;
+	}
+	.works {
+		text-align: center;
+	}
+}
+
+@media (max-width: 500px) {
+	.title h1 {
+		font-size: 30px;
+	}
+	
+	.title .btn {
+		font-size: 12px;
+		padding: 10px 27px;
+	}
+	.title {
+		top: 50%;
+	}
+}
+
+@media (max-width: 350px) {
+	.title {
+		top: 50%;
+	}
+}
+
