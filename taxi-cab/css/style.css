@@ -1,0 +1,707 @@
+
+/* Спецификации */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: "LatoRegular", sans-serif, sans-serif;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 44px;
+    font-family: "LatoBlack", sans-serif, sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+
+h3 {
+    font-family: "LatoBlack", sans-serif, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: "LatoBlack", sans-serif, sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #101010;
+    font-weight: 500;
+}
+
+.tarif-name {
+    font-family: "LatoBlack", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+
+/* Header */
+
+.header {
+    background: url(../img/header-bg.png) center center;
+    background-size: cover;
+    position: relative;
+    height: 740px;
+    padding-top: 20px;
+}
+
+.header .top {
+    margin-top: -30px;
+}
+
+.header .navbar-nav .nav-item {
+    padding: 0 8px;
+    border-radius: 20px;
+}
+
+.header .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: "LatoBlack", sans-serif;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.header .navbar-nav .nav-item:hover {
+    background: #ffc61a;
+}
+
+.header .navbar-nav .nav-item:hover .nav-link {
+    color: #000 !important;
+}
+
+.header .slogan {
+    font-family: "LatoBlack", sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.header .slog-name {
+    font-size: 35px;
+    color: #ffc61a;
+    display: block;
+    font-weight: 600;
+}
+
+.header .slog-number {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.header .slog-site {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.header .header-car {
+   display: block;
+   margin: auto;
+   margin-top: 80px;
+   width: 700px;
+}
+/* header end */
+
+/* about section start */
+
+.about {
+    padding-top: 150px;
+    padding-bottom: 75px;
+    background: #ffc61a;
+}
+
+.about p {
+    margin-top: 20px;
+}
+
+.about .button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: #fff;
+    background: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Bnbold", sans-serif;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+}
+
+.about .form {
+    margin-top: 30px;
+}
+
+.head-f {
+    width: 100%;
+    height: 75px;
+    background: #171717;
+    padding: 25px 35px 25px 35px;
+}
+
+.about .body-f {
+    height: 395px;
+    width: 100%;
+    background: #fff;
+    padding-left: 35px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about .fill {
+    border: none;
+    border-bottom: 3px solid #e4e4e4;
+    width: 170px;
+    align-self: center;
+    padding-top: 16px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    color: #4b4b4b;
+    font-family: "LatoMed", sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about .fill:nth-child(even) {
+    margin-left: 20px;
+}
+
+.about .choose {
+    border: none;
+    border-bottom: 3px solid #e4e4e4;
+    align-self: center;
+    padding-top: 16px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    color: #4b4b4b;
+    font-family: "LatoMed", sans-serif;
+    text-transform: capitalize;
+    width: 93%;
+}
+
+.about .form .button {
+    width: 100%;
+    padding: 12px 30px;
+    margin-top: 30px;
+}
+
+/* section about end */
+
+/* section tariffs start */
+
+.tariffs {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.tariffs h3 {
+    color: #ffc61a;
+    margin-bottom: -10px;
+}
+
+.cost {
+    color: #ffc61a;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.simple {
+    padding: 14px 30px;
+    background: #ffc61a;
+    text-transform: uppercase;
+    font-family: "Bnbold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.tariffs .tarif-name {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.tarif-box {
+    background: #f5f4f2;
+    margin-top: 130px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.tarif-box img {
+    margin-top: -80px;
+}
+
+.vip {
+    background: #ffc61a !important;
+}
+
+.vip .simple {
+    background: #000;
+    color: #fff;
+}
+
+.vip .cost {
+    color: #000;
+}
+
+.vip-star {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* section tarifs end */
+
+/* section best start */
+
+.best {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background: url(../img/best.png) center center no-repeat;
+    background-size: cover;
+}
+
+.best h3 {
+    color: #ffc61a;
+}
+
+.best h2 {
+    color: #fff;
+}
+
+.best-text p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.best-text span {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #ffc61a;
+    font-family: "LatoBlack", sans-serif;
+}
+
+.best img {
+    width: 70px;
+    margin-right: 30px;
+}
+
+.box-best {
+    margin-top: 100px;
+}
+
+.best .simple {
+    margin-top: 100px;
+}
+
+.sdvig {
+    margin-top: 50px !important;
+}
+
+/* section best end */
+
+/* section download start */
+
+.download {
+    padding-top: 65px;
+}
+
+.download h3 {
+    color: #ffc61a;
+    margin-bottom: -5px;
+}
+
+.download .down-text {
+    font-size: 24px;
+    font-family: "LatoBlack", sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.app {
+    width: 210px;
+    margin-top: 40px;
+}
+
+.download p {
+    font-size: 20px;
+}
+
+.hand {
+    margin-top: 30px;
+}
+
+/* section download end */
+
+/* section happe start */
+
+.happy {
+    padding-top: 110px;
+    padding-bottom: 60px;
+    background: url(../img/happybg.png) center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.happy h2 {
+    color: #fff;
+}
+
+.happy h3 {
+    color: #ffc61a;
+    margin-bottom: -5px;
+}
+
+.comment {
+    margin-top: 100px;
+}
+
+/* section happe end */
+
+/* section call start */
+
+
+.call {
+    padding-top: 70px;
+    padding-bottom: 50  px;
+    background: #ffc61a;
+}
+
+.call h1 {
+    font-size: 75px;
+    font-family: "LatoBlack", sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+/* section call end */
+
+/* section footer start */
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url(../img/bgfooter.png) center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.footer-span {
+    text-transform: uppercase;
+    font-family: "LatoBlack";
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+hr {
+    background: #ffc61a;
+    height: 8px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.footer .fa {
+    color: #ffc61a !important;
+    font-size: 30px !important;
+    margin-right: 15px;
+}
+
+.footer .users {
+    font-size: 20px;
+    color: #ffc61a;
+    width: 60%;
+}
+
+.footer .users .fa {
+    color: #fff !important;
+}
+
+
+@media (max-width: 1199px) {
+    .about .fill {
+        width: 120px;
+    
+    }
+    .about .fill:nth-child(even) {
+        margin-left: 50px;
+    }
+    .about h1 {
+        font-size: 30px;
+    }
+    .about h3 {
+        font-size: 25px;
+    }
+    .about p {
+        font-size: 15px;
+    }
+    .best img {
+        margin-right: 5px;
+    }
+    .download .app {
+        width: 180px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .navbar-nav .nav-item {
+        margin: auto;
+    }
+    
+    .header .navbar-nav .nav-item:first-child {
+        margin-top: 30px;
+    }
+    .about .fill {
+        width: 115px;
+    }
+    .about .fill:nth-child(even) {
+        margin-left: 20px;
+    }
+    .about h1 {
+        font-size: 25px;
+    }
+    .about h3 {
+        font-size: 20px;
+    }
+    .about p {
+        font-size: 12px;
+    }
+    .about .button {
+        font-size: 13px;
+    }
+    .best p {
+        font-size: 12px;
+    }
+    .best-text span {
+        font-size: 20px;
+    }
+    .download .app {
+        width: 160px;
+    }
+    .download .down-text {
+        font-size: 20px;
+    }
+    .download p {
+        font-size: 16px;
+    }
+    
+    .comment {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .header-car {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header .slog-name {
+        font-size: 22px;
+    }
+    
+    .header .slog-number {
+        font-size: 45px;
+    }
+    .header .header-car {
+        margin-top: 240px;
+        width: 700px;
+    }
+    .about h1 {
+        font-size: 20px;
+    }
+    .about h3 {
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .about p {
+        font-size: 12px;
+    }
+    .about .button {
+        font-size: 13px;
+        margin-left: 32%;
+    }
+    .about .form .button {
+        margin-left: 0;
+        width: 95%;
+    }
+    .best p {
+        font-size: 12px;
+    }
+    .download .app {
+        width: 200px;
+    }
+    .download {
+        padding-bottom: 30px;
+    }
+    .call h1 {
+        font-size: 50px;
+    }
+    .call h3 {
+        font-size: 18px;
+    }
+    .footer .row div {
+        margin-top: 30px !important;
+    }
+}
+
+.under-footer {
+    font-size: 14px;
+    font-family: "LatoRegular";
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #000;
+}
+
+@media (max-width: 576px) {
+    .head-f {
+       width: 80%;
+       margin: auto;
+    }
+    
+    .about .body-f {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .header .slog-name {
+        font-size: 25px;
+    }
+    
+    .header .slogan {
+        margin-top: 150px;
+    }
+    
+    .header .slog-number {
+        font-size: 50px;
+    }
+    
+    .header .slog-site {
+        font-size: 15px;
+    }
+    .header .header-car {
+        margin-top: 155px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 521px) {
+    .download .app {
+        width: 180px;
+    }
+}
+
+@media (max-width: 499px) {
+    .head-f {
+        width: 100%;
+     }
+     
+     .about .body-f {
+         width: 100%;
+     }
+     
+     .download .app {
+        width: 150px;
+    }
+    .happy h2 {
+        font-size: 30px;
+    }
+    .happy h3 {
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 407px) {
+    .about .fill {
+        width: 100px;
+    }
+    .about .choose {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    .header .slog-name {
+        font-size: 18px;
+    }
+    .header .slogan {
+        margin-top: 150px;
+    }
+    
+    .header .slog-number {
+        font-size: 35px;
+    }
+    
+    .header .slog-site {
+        font-size: 12px;
+    }
+    .header .header-car {
+        margin-top: 240px;
+        width: 500px;
+    }
+    .about .button {
+        margin-left: 20%;
+    }   
+    .download .app {
+        width: 130px;
+    }
+     .call h1 {
+         font-size: 30px;
+     }  
+     .call h3 {
+         font-size: 15px;
+     }
+}
+
+@media (max-width: 371px) {
+    .about .fill {
+        width: 80px;
+        font-size: 12px;
+    }
+    .about .choose {
+        width: 90%;
+        font-size: 12px;
+    }
+    .download .app {
+        width: 110px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header .header-car {
+        margin-top: 280px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 323px) {
+    .about .fill {
+        width: 75px;
+    }
+    
+}
+
